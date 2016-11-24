@@ -11,6 +11,7 @@
 
 @interface Chevalier : Piece
 
--(void) initialiserNom;
+-(void) Chevalier;
 
+-(bool) estValide: (Deplace)
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E0228DC1DE15FE500065FEB /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E0228DB1DE15FE500065FEB /* Case.m */; };
 		EC1887D41DC28AEE00295A43 /* Piece.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1887D31DC28AEE00295A43 /* Piece.m */; };
 		EC3F156D1DBFCBE500CCAA3B /* Pion.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F156C1DBFCBE500CCAA3B /* Pion.m */; };
 		EC3F15701DBFCC1100CCAA3B /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3F156F1DBFCC1100CCAA3B /* Tour.m */; };
@@ -50,6 +51,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E0228DA1DE15FE500065FEB /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		7E0228DB1DE15FE500065FEB /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
 		EC1887D21DC28AEE00295A43 /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
 		EC1887D31DC28AEE00295A43 /* Piece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Piece.m; sourceTree = "<group>"; };
 		EC3F156B1DBFCBE500CCAA3B /* Pion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pion.h; sourceTree = "<group>"; };
@@ -164,35 +167,37 @@
 		EC8A93F31DB95AC600FCA1F2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EC3F15711DBFCC2E00CCAA3B /* Chevalier.h */,
+				EC3F15721DBFCC2E00CCAA3B /* Chevalier.m */,
+				EC3F15771DBFCC5F00CCAA3B /* Dame.h */,
+				EC3F15781DBFCC5F00CCAA3B /* Dame.m */,
 				EC8A94231DB95AF500FCA1F2 /* Deplacement.h */,
 				EC8A94241DB95AF500FCA1F2 /* Deplacement.m */,
 				EC3F157D1DBFCCB900CCAA3B /* Echiquier.h */,
 				EC3F157E1DBFCCB900CCAA3B /* Echiquier.m */,
-				EC3F156B1DBFCBE500CCAA3B /* Pion.h */,
-				EC3F156C1DBFCBE500CCAA3B /* Pion.m */,
-				EC3F156E1DBFCC1100CCAA3B /* Tour.h */,
-				EC3F156F1DBFCC1100CCAA3B /* Tour.m */,
-				EC3F15711DBFCC2E00CCAA3B /* Chevalier.h */,
-				EC3F15721DBFCC2E00CCAA3B /* Chevalier.m */,
 				EC3F15741DBFCC4200CCAA3B /* Fou.h */,
 				EC3F15751DBFCC4200CCAA3B /* Fou.m */,
-				EC8A93F41DB95AC600FCA1F2 /* main.m */,
-				EC3F15771DBFCC5F00CCAA3B /* Dame.h */,
-				EC3F15781DBFCC5F00CCAA3B /* Dame.m */,
-				EC3F157A1DBFCC7000CCAA3B /* Roi.h */,
-				EC3F157B1DBFCC7000CCAA3B /* Roi.m */,
-				EC1887D21DC28AEE00295A43 /* Piece.h */,
-				EC1887D31DC28AEE00295A43 /* Piece.m */,
-				F49746291DCB00E600A4B028 /* MovingPosition.h */,
-				F497462A1DCB00E600A4B028 /* MovingPosition.m */,
-				F497462C1DCB047C00A4B028 /* PointingPosition.h */,
-				F497462D1DCB047C00A4B028 /* PointingPosition.m */,
 				F46B4D451DCC65010017DA26 /* ListePieces.h */,
 				F46B4D461DCC65010017DA26 /* ListePieces.m */,
+				EC8A93F41DB95AC600FCA1F2 /* main.m */,
 				F4184FCE1DD421FE00BF1ABB /* MoveLog.h */,
 				F4184FCF1DD421FE00BF1ABB /* MoveLog.m */,
+				F49746291DCB00E600A4B028 /* MovingPosition.h */,
+				F497462A1DCB00E600A4B028 /* MovingPosition.m */,
+				EC1887D21DC28AEE00295A43 /* Piece.h */,
+				EC1887D31DC28AEE00295A43 /* Piece.m */,
 				F4184FD41DD423CB00BF1ABB /* PiecePosition.h */,
 				F4184FD51DD423CB00BF1ABB /* PiecePosition.m */,
+				EC3F156B1DBFCBE500CCAA3B /* Pion.h */,
+				EC3F156C1DBFCBE500CCAA3B /* Pion.m */,
+				F497462C1DCB047C00A4B028 /* PointingPosition.h */,
+				F497462D1DCB047C00A4B028 /* PointingPosition.m */,
+				EC3F157A1DBFCC7000CCAA3B /* Roi.h */,
+				EC3F157B1DBFCC7000CCAA3B /* Roi.m */,
+				EC3F156E1DBFCC1100CCAA3B /* Tour.h */,
+				EC3F156F1DBFCC1100CCAA3B /* Tour.m */,
+				7E0228DA1DE15FE500065FEB /* Case.h */,
+				7E0228DB1DE15FE500065FEB /* Case.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -366,6 +371,7 @@
 				EC8A93F21DB95AC600FCA1F2 /* AppDelegate.m in Sources */,
 				EC3F157F1DBFCCB900CCAA3B /* Echiquier.m in Sources */,
 				EC1887D41DC28AEE00295A43 /* Piece.m in Sources */,
+				7E0228DC1DE15FE500065FEB /* Case.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
